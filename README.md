@@ -59,7 +59,7 @@ In Laravel projects, do `:Laravel` and then your favorite `php artisan` command.
 At the moment there is no configuration options available. It should just work out of the box.
 If there are any options you would like or it doesn't work like it should, please feel free open an issue in the repository!
 
-## Technical overview
+## ⚙️ Technical overview
 
 Basically, all it does is run `term php artisan <command>` or `term composer <command>` for you and generates command completions from the available commands from `artisan` and `composer` using `<php artisan/composer> list --format=json --short`.
 

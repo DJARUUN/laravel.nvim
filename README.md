@@ -42,15 +42,15 @@ laravel.nvim supports all the usual plugin managers
 
 In Laravel projects, do `:Laravel` and then your favorite `php artisan` command. It supports `php artisan` commands at the top-level and namespaces `composer` commands under `composer:`.
 
-#### Example of starting the dev server using composer's dev script
+#### Example of starting the dev server using composer's dev script:
 
 `:Laravel composer:dev`
 
-#### The same example using artisan's serve
+#### The same example using artisan's serve:
 
 `:Laravel serve`
 
-#### Example of generating a component
+#### Example of generating a component:
 
 `:Laravel make:component Button`
 
@@ -58,6 +58,10 @@ In Laravel projects, do `:Laravel` and then your favorite `php artisan` command.
 
 At the moment there is no configuration options available. It should just work out of the box.
 If there are any options you would like or it doesn't work like it should, please feel free open an issue in the repository!
+
+## Technical overview
+
+Basically, all it does is run `term php artisan <command>` or `term composer <command>` for you and generates command completions from the available commands from `artisan` and `composer` using `<php artisan/composer> list --format=json --short`.
 
 ## 💫 Star History
 

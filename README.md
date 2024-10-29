@@ -2,7 +2,7 @@
 
 # laravel.nvim
 
-A lightweight, no-frills Neovim plugin that automatically detects Laravel projects and adds a :Laravel command for easy access to Artisan and Composer tasks. Perfect for keeping things simple and staying focused on code without extra setup or navigation.
+A lightweight Neovim plugin that adds a :Laravel command for easy access to Artisan and Composer tasks. 
 
 </div>
 
